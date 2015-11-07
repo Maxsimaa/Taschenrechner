@@ -62,7 +62,10 @@ public class Taschenrechner {
                     rechner = new Addiere(); break;
                         
             case "-":
-                    rechner = new Subtrahiere(); break;     
+                    rechner = new Subtrahiere(); break;
+                
+            case "^":
+                    rechner = new Potenziere(); break;
         }
     }
         
