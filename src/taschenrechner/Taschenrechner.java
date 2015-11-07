@@ -32,6 +32,7 @@ public class Taschenrechner {
         stop = false;
         
         while(!stop){
+            ausgabe.zeigeWillkommenstext();
         
             x = ausgabe.gibZahl(1);
         

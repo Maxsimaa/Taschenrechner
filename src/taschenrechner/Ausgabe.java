@@ -16,4 +16,6 @@ public interface Ausgabe {
     double gibZahl(int zahlnummer);
     
     String gibOperator();
+    
+    void zeigeWillkommenstext();
 }
